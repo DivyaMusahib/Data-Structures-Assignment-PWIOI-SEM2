@@ -1,0 +1,92 @@
+Comparision of time compexity and space complexity of linkedlist and dynamic arrays
+
+Insert at index : 
+linked list    -> TC = O(n) , SC = O(1)
+dynamic arrays -> TC = O(n) , SC = O(n)
+
+Remove at index : 
+linked list    -> TC = O(n) , SC = O(1)
+dynamic arrays -> TC = O(n) , SC = O(n)
+
+Get size : 
+linked list    -> TC = O(1) , SC = O(1)
+dynamic arrays -> TC = O(1) , SC = O(1)
+
+Is Empty : 
+linked list    -> TC = O(1) , SC = O(1)
+dynamic arrays -> TC = O(1) , SC = O(1)
+
+Roatate : 
+linked list    -> TC = O(n) , SC = O(1)
+dynamic arrays -> TC = O(n) , SC = O(n)
+
+Reverse : 
+linked list    -> TC = O(n) , SC = O(1)
+dynamic arrays -> TC = O(n) , SC = O(1)
+
+Append : 
+linked list    -> TC = O(1) , SC = O(1)
+dynamic arrays -> TC = O(1) , SC = O(1)
+
+Prepend : 
+linked list    -> TC = O(1) , SC = O(1)
+dynamic arrays -> TC = O(n) , SC = O(n)
+
+Merge : 
+linked list    -> TC = O(n) , SC = O(1)
+dynamic arrays -> TC = O(n) , SC = O(n)
+
+Interleave : 
+linked list    -> TC = O(n) , SC = O(1)
+dynamic arrays -> TC = O(n) , SC = O(n)
+
+Get middle element : 
+linked list    -> TC = O(n) , SC = O(1)
+dynamic arrays -> TC = O(1) , SC = O(1)
+
+Index of element: 
+linked list    -> TC = O(n) , SC = O(1)
+dynamic arrays -> TC = O(n) , SC = O(1)
+
+Split : 
+linked list    -> TC = O(n) , SC = O(1)
+dynamic arrays -> TC = O(n) , SC = O(n)
+
+Resize : 
+dynamic arrays -> TC = O(n) , SC = O(n)
+
+
+---------------------------------------------------
+
+Advantages and Disadvantages:
+
+---------------------------------------------------
+Linked List:
+
+Advantages:
+1. Easy insertion and deletion at the beginning or middle of the list.
+2. Resizing is not required.
+3. Size increase or decrease dynamically if we are adding one element one size is occupied no extra space reserved before
+
+Disadvantages:
+1. No direct element access.
+2. Needs memory for storing pointers.
+
+---------------------------------------------------
+
+Dynamic Array:
+
+Advantages:
+1. Direct or random access to elements.
+
+Disadvantages:
+
+1. Inefficient insertion and deletion at the beginning or middle.
+2. Needs resizing. 
+3. Reserve extra space.  
+
+
+---------------------------------------------------
+Report Summary:
+
+Linked lists are more flexible for frequent insertions or deletions, especially at the beginning and middle of the list, but lack random access. Dynamic arrays provide constant-time access to elements and efficient appending but can be inefficient for insertions and deletions in the middle or at the beginning, and require periodic resizing. The choice between the two depends on the specific requirements of the application.
